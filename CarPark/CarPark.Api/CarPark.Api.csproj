@@ -10,4 +10,8 @@
     <ProjectReference Include="..\CarPark.Services\CarPark.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Models\" />
+  </ItemGroup>
+
 </Project>
