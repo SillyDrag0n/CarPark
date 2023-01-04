@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CarPark.apoiaowe.Pages
+namespace CarPark.Api.Pages
 {
     public class PrivacyModel : PageModel
     {
