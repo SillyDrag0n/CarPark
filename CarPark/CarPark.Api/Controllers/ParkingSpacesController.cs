@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace CarPark.Api.Controllers
 {
@@ -9,6 +10,12 @@ namespace CarPark.Api.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        // GET: ParkingSpacesController
+        public ActionResult Test()
+        {
+            return View(StatusCode(200));
         }
 
         // GET: ParkingSpacesController/spaces/5
@@ -40,36 +47,6 @@ namespace CarPark.Api.Controllers
         public ActionResult Delete(string id)
         {
             return View();
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Route("spaces/{id:string}")]
-        public ActionResult Checkin(string id)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Route("spaces/{id:string}")]
-        public ActionResult Checkout(string id)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
         }
     }
 }

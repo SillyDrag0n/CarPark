@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Repositories", "Car
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPark.Services", "CarPark.Services\CarPark.Services.csproj", "{B315677E-C242-4DE8-B2F5-4C8C137F5D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Api", "CarPark.Api\CarPark.Api.csproj", "{6439B867-2697-4729-9482-C14743A70A23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark.Api", "CarPark.Api\CarPark.Api.csproj", "{3B7A42B9-8581-4E9A-B7AB-664F804F28EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{B315677E-C242-4DE8-B2F5-4C8C137F5D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B315677E-C242-4DE8-B2F5-4C8C137F5D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B315677E-C242-4DE8-B2F5-4C8C137F5D65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6439B867-2697-4729-9482-C14743A70A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6439B867-2697-4729-9482-C14743A70A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6439B867-2697-4729-9482-C14743A70A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6439B867-2697-4729-9482-C14743A70A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7A42B9-8581-4E9A-B7AB-664F804F28EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7A42B9-8581-4E9A-B7AB-664F804F28EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7A42B9-8581-4E9A-B7AB-664F804F28EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7A42B9-8581-4E9A-B7AB-664F804F28EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
