@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CarPark.Api.Pages
+namespace CarPark.apoiaowe.Pages
 {
     public class IndexModel : PageModel
     {
